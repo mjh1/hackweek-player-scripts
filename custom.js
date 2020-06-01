@@ -1,6 +1,6 @@
 console.log('hello')
 
-videojs('vjs_video_3')
+//videojs('vjs_video_3')
 
 /*var vjsButtonComponent = videojs.getComponent('Button');
 videojs.registerComponent('SkipButton', videojs.extend(vjsButtonComponent, {
