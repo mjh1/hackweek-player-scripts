@@ -1,6 +1,6 @@
 console.log('hello')
 
-videojs('vjs_video_3_html5_api')
+//videojs('vjs_video_3_html5_api')
 
 /*var vjsButtonComponent = videojs.getComponent('Button');
 videojs.registerComponent('SkipButton', videojs.extend(vjsButtonComponent, {
