@@ -17,7 +17,7 @@ videojs.registerComponent('SkipButton', videojs.extend(vjsButtonComponent, {
 }));
 
 videojs(
-    'player-id',
+    'vjs_video_3',
     {fluid: true},
     function () {
         this.getChild('controlBar').addChild('SkipButton', {});
