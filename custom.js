@@ -1,3 +1,5 @@
+
+videojs("vjs_video_3").ready(function(){
 var vjsButtonComponent = videojs.getComponent('Button');
 videojs.registerComponent('SkipButton', videojs.extend(vjsButtonComponent, {
     constructor: function () {
@@ -15,3 +17,4 @@ videojs.registerComponent('SkipButton', videojs.extend(vjsButtonComponent, {
 }));
 
 videojs.getPlayer('vjs_video_3').getChild('controlBar').addChild('SkipButton', {})
+})
