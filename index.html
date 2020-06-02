@@ -5,26 +5,7 @@
 <body>
 <video-js data-account="6157766642001" data-player="default" data-embed="default" controls="" data-video-id="6160885463001" data-playlist-id="" data-application-id="" width="960" height="540"></video-js><script src="https://players.brightcove.net/6157766642001/default_default/index.min.js"></script>
 
-<script type="text/javascript">
-  var vjsButtonComponent = videojs.getComponent('Button');
-  videojs.registerComponent('SkipButton', videojs.extend(vjsButtonComponent, {
-      constructor: function () {
-          vjsButtonComponent.apply(this, arguments);
-      },
-      handleClick: function () {
-          videojs.getPlayer('vjs_video_3').currentTime(25)
-      },
-      buildCSSClass: function () {
-          return 'vjs-control vjs-download-button';
-      },
-      createControlTextEl: function (button) {
-          return $(button).html($('<span class="glyphicon glyphicon-download-alt">Skip Intro</span>').attr('title', 'Skip'));
-      }
-  }));
-
-videojs.getPlayer('vjs_video_3').getChild('controlBar').addChild('SkipButton', {})
-
-</script>
+<script src="custom.js"></script>
 
 </body>
 </html>
